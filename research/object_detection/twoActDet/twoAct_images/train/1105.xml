@@ -1,0 +1,26 @@
+<annotation>
+	<folder>standing_images</folder>
+	<filename>105.jpg</filename>
+	<path>C:\Users\vikas\Desktop\standing_images\105.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>854</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>standing </name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>130</xmin>
+			<ymin>85</ymin>
+			<xmax>390</xmax>
+			<ymax>654</ymax>
+		</bndbox>
+	</object>
+</annotation>

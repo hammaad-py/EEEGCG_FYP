@@ -1,0 +1,26 @@
+<annotation>
+	<folder>standing_images</folder>
+	<filename>201.jpg</filename>
+	<path>/home/tyro_guide/Desktop/twoActDet/images/standing_images/201.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>854</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>standing</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>183</ymin>
+			<xmax>77</xmax>
+			<ymax>687</ymax>
+		</bndbox>
+	</object>
+</annotation>

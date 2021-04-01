@@ -1,0 +1,26 @@
+<annotation>
+	<folder>duck_images</folder>
+	<filename>148.jpg</filename>
+	<path>/home/tyro_guide/Desktop/twoActDet/images/duck_images/148.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>854</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>duck</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>304</xmin>
+			<ymin>390</ymin>
+			<xmax>480</xmax>
+			<ymax>785</ymax>
+		</bndbox>
+	</object>
+</annotation>
