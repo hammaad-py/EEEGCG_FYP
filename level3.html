@@ -1,0 +1,35 @@
+<!--Level 3: Theme: Goldmine
+    Credits: EEE-GCG PROJECT
+    Mohammed Hammaad Mateen-->
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <!-- Required A-Frame Scripts -->
+        <script src="aframe.min.js"></script>
+        <script src="aframe-environment-component.min.js"></script>
+        <script src="aframe-physics.js"></script>
+      </head>
+      <body>
+        <a-scene id="myScene">
+          <!-- Theme -->
+          <a-entity environment="preset:goldmine; skyType:atmosphere; flatShading:false;"></a-entity>
+          <a-plane id="floor" static-body height="1000" width="1000" position="0 -0.02 0" color="black" rotation="-90 0 0"></a-plane>
+          <a-camera id="myCamera" position="0 1 0">
+            <a-cursor intersection-spawn="event: click; mixin: voxel"></a-cursor>
+          </a-camera>
+          <!-- Targets -->
+          <a-icosahedron static-body class="target" color="white" radius="1" position="-2 3 -5"></a-icosahedron>
+          <a-icosahedron static-body class="target" color="white" radius="1" position="2 3 -5"></a-icosahedron>
+          <a-icosahedron static-body class="target" color="white" radius="1" position="-2 3 -10"></a-icosahedron>
+          <a-icosahedron static-body class="target" color="white" radius="1" position="2 3 -10"></a-icosahedron>
+          <a-icosahedron static-body class="target" color="white" radius="1" position="-6 3 -7.5"></a-icosahedron>
+          <a-icosahedron static-body class="target" color="white" radius="1" position="6 3 -7.5"></a-icosahedron>
+          <a-icosahedron static-body class="target" color="white" radius="1" position="0 3 -7.5"></a-icosahedron>
+          <!-- Targets -->
+        </a-scene>
+      </body>
+      <script src="shoot.js"></script>
+      <!-- Next Level -->
+      <script>nextLevel = 'level4.html';</script>
+    </html>
