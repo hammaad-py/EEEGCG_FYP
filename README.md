@@ -5,6 +5,9 @@ Greetings People!!
 
 This repo contains the data and code to train and test the MobileNet v2 object detection model for Stand and Duck postures.
 
+Entire documentation and working code is present here, feel free to reach out
+https://drive.google.com/drive/folders/1Gzl0edyPUrx6UzPX9qEWWn0r9VSS2a9m
+
 Have a close look on these (be mindful to change the path in the code, if you want to alter the directory structure):
 
 -research
